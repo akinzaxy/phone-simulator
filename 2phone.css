@@ -1,0 +1,585 @@
+.round-edge {
+    border-radius: 50%;
+    height: 20px;
+    z-index: -1;
+    position: relative;
+}
+.col-sm-6:nth-of-type(2) .round-edge {
+    background: #343a40;
+}
+.roundone {
+    top: 35px;
+}
+.roundtwo {
+    top: -35px;
+}
+.bg-phone {
+    width: 250px;
+}
+.phone-bx {
+    background: white;
+}
+.col-sm-6:nth-of-type(2) .phone-bx {
+    background: #343a40;
+}
+.mic {
+    width: 50px;
+    padding: 2px;
+    margin-top: -8px;
+    margin-bottom: 4px;
+}
+.nokiatext {
+    color: rgb(151, 151, 151);
+    font-family: NokiaKokia, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .65em;
+    font-weight: 900;
+    letter-spacing: .05em;
+    margin-bottom: .2em;
+}
+.screenbox {
+    background-color: rgba(128, 128, 128, 0.664);
+    height: 160px; 
+    width: 220px;
+    position: relative;
+}
+.showbox {
+    background: url(images/src.1226417539718.jpg) no-repeat left center;
+    background-size: cover;
+    font-family: 'Nokia Sans S60', Arial, Helvetica, sans-serif;
+    /* font-size: 1em; */
+    letter-spacing: .02em;
+    color: white;
+}
+.topnav {
+    position: relative;
+    z-index: 1;
+}
+.topicons {
+    height: 1.2em;
+    margin-top: -.2em;
+    overflow: hidden;
+}
+.topnav img {
+    display: block;
+    height: 110%;
+    float: left;
+}
+.homebox {
+    position: relative;
+    width: inherit;
+    /* top: 1em; */
+    text-align: left;
+}
+.homebox > div {
+    display: inline-block;
+}
+.timeplus {
+    position: relative;
+    padding: 0;
+    /* margin-right: 0; */
+}
+.timepiece {
+    font-weight: 700;
+    font-size: 1.1em;
+    margin-top: 1.3em;
+    padding-right: .4em;
+    text-align: right;
+    line-height: .5em;
+}
+.piecepm {
+    font-size: .6em;
+    font-weight: lighter;
+}
+.glasscupboard {
+    width: 10.3em;
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+}
+.glassdiv {
+    margin: .18em 0;
+    border: 1px solid aliceblue;
+    border-bottom: 0;
+    border-right: 0;
+    padding: .1em;
+    border-radius: .15em;
+    background-color: rgba(245, 245, 245, 0.199);
+}
+.glassdiv:hover {
+    background-color: rgba(245, 245, 245, 0.404);
+}
+.glassdiv > div {
+    font-size: .7em;
+    font-weight: bolder;
+    line-height: 1.2em;
+    margin: 0 .4em;
+}
+.imgSignal img {
+    height: .9em;
+    margin-bottom: .3em;
+}
+.imgSignal img:first-of-type {
+    margin-right: -0.4em;
+    margin-left: -0.35em
+}
+.glassdiv:nth-of-type(2) div .col {
+    border-bottom: .12em solid rgba(240, 248, 255, 0.637);
+}
+.glassdiv:nth-of-type(2) .glassicon {
+    float: right;
+    clear: both;
+    width: 1.3em;
+    height: 1.3em;
+    margin-bottom: .2em;
+    border-radius: 40%;
+}
+.glassicon img {
+    display: block;
+    height: inherit;
+    padding: .2em;
+    margin: auto;
+}
+.glassdiv:nth-of-type(3) .clickapp {
+    display: inline-block;
+    height: 2.2em;
+    margin: .2em 0;
+    padding-right: .14em;
+    border-right: .12em solid rgba(240, 248, 255, 0.637);
+    line-height: 0;
+}
+.clickapp span {
+    display: block;
+    border-radius: 30%;
+    height: inherit;
+}
+.clickapp img {
+    height: inherit;
+    padding: .2em;
+}
+.dialbox {
+    display: none;
+    height: 100px;
+    width: 220px;
+    position: absolute;
+    bottom: 0;
+    padding: 0;
+}
+/* .dialbox:hover { */
+    /* background-color: aliceblue; */
+    /* box-shadow: inset 0 0 .4em .1em gold; */
+/* } */
+.dialspace {
+    width: 200px;
+    height: 70%;
+    position: relative !important;
+    top: 14%;
+    border-radius: .15em;
+    font-size: 2em;
+    background-color: rgb(143, 81, 5);
+}
+.col-sm-6:nth-of-type(2) .dialspace {
+    background-color: #006ab1;
+}
+.dialspace input {
+    color: white;
+    background: 0;
+    border: 0;
+    border-radius: inherit;
+    text-align: right;
+    vertical-align: baseline;
+    padding: .1em;
+}
+/* .dialspace input:hover { */
+    /* background-color: gold; */
+/* } */
+.dialspace input:focus {
+    box-shadow: none;
+    outline: 2px solid rgba(255, 140, 0, 0);
+}
+.callbox {
+    display: none;
+    /* visibility: hidden; */
+    height: 110px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 0;
+}
+.callbox > div {
+    text-align: left;
+    border: 0;
+    height: 50px;
+    position: relative;
+}
+.callbox > div > div {
+    display: inline-block;
+    position: relative;
+    /* left: 0px; */
+}
+.callbox>div:first-of-type {
+    border-bottom: .1em solid white;
+}
+.callbox>div:nth-of-type(2) div:first-of-type {
+    margin-left: 1.8em;
+}
+.callbox span {
+    display: block;
+    height: 44%;
+    color: aliceblue;
+    font-size: .8em;
+    line-height: 1.2em;
+    padding: 0;
+    margin-top: .1em;
+}
+.calling {
+    padding-top: .8em;
+}
+.callImg span {
+    width: 1.5em;
+    margin-left: .4em;
+}
+.callImg img {
+    width: inherit;
+    position: relative;
+    bottom: 1em;
+}
+.callSignal {
+    position: absolute !important;
+    right: .8em;
+    top: 0.5em;
+    /* margin-bottom: -0.7em; */
+}
+.callSignal span {
+    width: 1.2em;
+    margin-left: -0.4em;
+}
+.callSignal img {
+    width: inherit;
+    /* position: relative; */
+}
+.processbox {
+    display: none;
+    height: 110px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 0;
+}
+.processMsg {
+    margin: auto;
+    margin-top: .4em;
+    text-align: center;
+    /* height: 30%; */
+    position: relative;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 1.8em;
+}
+.processImg {
+    margin: auto;
+    margin-top: .4em;
+    height: 1.8em;
+    text-align: center;
+    position: relative;
+    padding: 0;
+}
+.processImg img {
+    height: inherit;
+}
+.numSpan {
+    /* position: absolute; */
+    /* right: 0; */
+    font-size: 1.4em;
+    font-weight: 600;
+    position: relative;
+}
+.callsDiv {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    padding-top: .8em;
+    bottom: 0;
+    overflow: scroll;
+}
+.callLog {
+    width: inherit;
+    border-bottom: .12em solid white;
+    padding: .4em;
+    /* margin: -.4em; */
+    font-size: .8em;
+    line-height: 1.2em !important;
+    display: block;
+}
+.incoming {
+    display: none;
+    height: 5.4em;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding-left: 2em;
+    font-size: 1em;
+    line-height: 1.4em;
+}
+.incoming span:nth-of-type(2){
+    font-size: .8em;
+}
+.menunav {
+    position: absolute;
+    bottom: -0.1em;
+    font-size: .75em;
+    font-weight: 600;
+    line-height: 1.35em;
+    background-color: grey;
+    z-index: 1;
+}
+.menu2 {
+    font-size: 1.2em;
+    font-weight: 700;
+    line-height: 1em;
+}
+.controlpad {
+    height: 55px; 
+    width: 225px;
+}
+.phone-bx {
+    border-top: 0px;
+    border-bottom: 0px;
+}
+.tbutton {
+    margin: 0 3px !important;
+    padding: 0 !important;
+    border-radius: 5px;
+}
+.t-in[rowspan="3"] {
+    border: 0;
+    padding: 0;
+    width: 45%;
+}
+.tln {
+    border-bottom: 1.5px solid darkorange;
+    height: 50%;
+}
+.col-sm-6:nth-of-type(2) .tln {
+    border-bottom: 1.5px solid #0099ff;
+}
+.tln img, .ttn img {
+    position: relative;
+    top: 1px;
+    width: 20px;
+    display: block;
+    margin: auto;
+}
+.ttn {
+    border-top: 1.5px solid darkorange;
+    /* margin-top: 3px !important; */
+}
+.col-sm-6:nth-of-type(2) .ttn {
+    border-top: 1.5px solid #0099ff;
+    /* margin-top: 3px !important; */
+}
+.tsp {
+    height: 2px;
+}
+.scol {
+    width: 33%;
+    margin: 0;
+}
+.mcol {
+    width: 54px !important;
+    background-color: aliceblue;
+    margin: 0;
+}
+.tab-btn {
+    width: 100%;
+    height: 100%;
+}
+.border-theme {
+    border: 1px solid darkorange;
+}
+.bg-theme {
+    background-color: darkorange;
+}
+.bg-dorange {
+    background-color: darkorange;
+}
+.col-sm-6:nth-of-type(2) .border-theme {
+    border: 1px solid #0099ff;
+}
+.col-sm-6:nth-of-type(2) .bg-theme {
+    background-color: #0099ff;
+}
+.border-1 {
+    border-width: .12em;
+    border-style: solid;
+}
+.border-x-0 {
+    border-left: 0 !important;
+    border-right: 0 !important;
+}
+.border-y-0 {
+    border-top: 0 !important;
+    border-bottom: 0 !important;
+}
+.rounder {
+    border-radius: .3em;
+}
+.roundered {
+    border-radius: 4em;
+}
+.mailbtn {
+    position: relative;
+    left: 12px;
+    width: 22px;
+    height: 24px;
+}
+.mailbtn img {
+    position: relative;
+    left: -2px;
+    bottom: 4.2px;
+    width: 15.6px;
+}
+.fbbtn {
+    position: relative;
+    left: -1px;
+    width: 22px;
+    height: 24px;
+}
+.fbbtn img {
+    position: relative;
+    left: -2.6px;
+    bottom: 2.6px;
+    width: 18px;
+}
+.tln.btn-light:hover {
+    border-bottom: 1px solid darkorange;
+}
+.ttn.btn-light:hover {
+    border-top: 1px solid darkorange;
+}
+.tnav-y {
+    height: 6.5px;
+}
+.tnav-x {
+    width: 8px;
+}
+.tnav-center:hover {
+    border: 1px solid darkorange;
+}
+.col-sm-6:nth-of-type(2) .tnav-center:hover {
+    border: 1px solid #0099ff;
+}
+#utable {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 3px;
+    /* display: block; */
+    /* margin: auto; */
+}
+.keypad {
+    height: 138px; 
+    width: 222px;
+}
+.keypad button {
+    height: 25px;
+    margin-right: 2px;
+    margin-left: 2px;
+    padding: 0;
+    line-height: .7em;
+    font-weight: 600;
+    /* border-radius: .9em; */
+}
+.keypad button:active, .fbbtn:active, .mailbtn:active {
+    border: 1px dotted rgba(255, 140, 0, 0);
+    box-shadow: none;
+}
+.keypad button:focus, .fbbtn:focus, .mailbtn:focus {
+    box-shadow: 0 0 8px 0.02rem darkorange;
+    outline: 1px solid rgba(255, 140, 0, 0);
+}
+.col-sm-6:nth-of-type(2) .keypad button:focus, .col-sm-6:nth-of-type(2) .fbbtn:focus, .col-sm-6:nth-of-type(2) .mailbtn:focus {
+    box-shadow: 0 0 8px 0.02rem #0099ff;
+}
+.btn-char {
+    display: block;
+    position: relative;
+    bottom: 0.05em;
+    margin-right: auto;
+    /* margin-left: auto; */
+    color: black;
+    font-size: .7em;
+    width: 87.5%;
+    height: 48%;
+    overflow: hidden;
+}
+.col-sm-6:nth-of-type(2) .btn-char {
+    color: white;
+}
+.btn-char:first-of-type {
+    /* background-color: red; */
+    text-align: right;
+    margin-right: 0px;
+}
+.btn-char:only-of-type {
+    height: auto;
+}
+.btn-char img {
+    /* position: relative; */
+    /* bottom: 0.1rem; */
+    display: block;
+    margin-left: auto;
+    width: 1.4em;
+}
+.btn-char.img-txt {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: .1em;
+    height: 59.99%;
+    line-height: 1.2em;
+}
+.btn-char.img-txt img {
+    width: 1.2em;
+}
+.btn-char.img-txt+.btn-char {
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    padding: 0;
+    line-height: 1.2em;
+    font-size: .46em;
+    font-weight: bold;
+}
+.fnt-inc {
+    font-size: .95em;
+    font-weight: 400;
+    height: .7em;
+    display: block;
+    position: relative;
+    top: .05em;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0;
+}
+.fnt-ninc {
+    height: .8em;
+    padding: 0;
+    margin: 0;
+    line-height: .5em;
+}
+.inc-t {
+    line-height: .8em;
+}
+.inc-b {
+    line-height: .2em;
+}
+.tmchar {
+    color: darkorange;
+}
+.col-sm-6:nth-of-type(2) .tmchar {
+    color: #0099ff;
+}
+.spacebar {
+    width: 50px;
+}
+.btn-hid {
+    width: .8em;
+}

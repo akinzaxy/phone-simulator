@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>&#9742; Phone</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../../../webdev resource/bootstrapClass/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="2phone.css">
+    <script src="2phone2.js"></script>
+</head>
+<body onload="readyDos()">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                        <div class="roundone round-edge bg-phone border-theme mx-auto">
+                        </div>
+                        <!-- the device begins here -->
+                        <div class="phone-bx border-y-0 bg-phone border-theme my-4 py-3 mx-auto rounded">
+                                <div class="mic bg-theme mx-auto rounded"></div>
+                                <div class="mx-auto p-0 my-0">
+                                    <p class="nokiatext p-0 text-center font-weight-bold">NOKIA</p>
+                                </div>
+                                <div class="screenbox mx-auto mb-2">
+                                    <div class="showbox position-relative bg-light border-theme w-100 h-100">
+                                        <div class="topnav row mx-auto w-100">
+                                            <div class="topicons col p-0">
+                                                <img src="images/Low Battery_96px.png">
+                                            </div>
+                                        </div>
+                                        <div class="homebox row mx-auto">
+                                            <div class="timeplus col d-inline-block">
+                                                <div class="timepiece">
+                                                    <span class="piecedigit">07:44</span><br>
+                                                    <span class="piecepm">pm</span>
+                                                </div>
+                                                <div></div>
+                                                <div>&nbsp;</div>
+                                            </div>
+                                            <div class="glasscupboard d-inline-block">
+                                                <div class="glassdiv">
+                                                    <div>
+                                                        <span>1</span>
+                                                        <span class="imgSignal">
+                                                            <img src="images/Obelisk_96px.png">
+                                                            <img src="images/Signal_100px.png">
+                                                        </span>
+                                                        <span> Airtel NG</span>
+                                                    </div>
+                                                    <div>
+                                                        <span>2</span>
+                                                        <span class="imgSignal">
+                                                            <img src="images/Obelisk_96px.png">
+                                                            <img src="images/Signal_100px.png">
+                                                        </span>
+                                                        <span> Glo NG</span>
+                                                    </div>
+                                                </div>
+                                                <div class="glassdiv">
+                                                    <div class="row" title="Music"><span class="col pl-0">My music </span><span class="glassicon bg-danger"><img src="images/Music_96px.png"></span></div>
+                                                    <div class="row" title="Radio"><span class="col pl-0">Radio </span><span class="glassicon bg-danger"><img src="images/Radio_96px.png"></span></div>
+                                                    <div class="border-0">&nbsp;</div>
+                                                </div>
+                                                <div class="glassdiv">
+                                                    <div class="appnav">
+                                                        <div class="clickapp"><span title="Camera" class="bg-info"><img src="images/Camera_104px.png"></span></div>
+                                                        <div class="clickapp"><span title="My Apps" class="bg-dorange"><img src="images/Medium Icons_96px.png"></span></div>
+                                                        <div class="clickapp"><span title="Volume" class="bg-secondary"><img src="images/Speaker_104px.png"></span></div>
+                                                        <div class="clickapp"><span title="Twitter" class="bg-info"><img src="images/Twitter_100px.png"></span></div>
+                                                        <div class="clickapp"><span title="Calculator" class="bg-dorange"><img src="images/Calculator_100px.png"></span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- <div class="col d-inline-block">x</div> -->
+                                        </div>
+                                        <div class="dialbox bg-theme w-100">
+                                            <div class="dialspace m-auto text-left">
+                                                <input type="text" class="w-100 h-100 text-right">
+                                            </div>
+                                        </div>
+                                        <div class="callbox bg-theme m-auto text-center">
+                                            <div>
+                                                <div class="callImg">
+                                                    <span>
+                                                        <img src="images/Call_96px_light.png">
+                                                    </span>
+                                                    <!-- <span>&nbsp;</span> -->
+                                                </div>
+                                                <!-- <div style="position: relative; left: -5px;"><span>A SPAN IN THE DIV</span>THIS IS A DIV</div> -->
+                                                <div class="calling">
+                                                    <span>Calling...</span>
+                                                    <span class="font-weight-bold">911</span>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="callSim">
+                                                    <span class="font-weight-bold">SIM1</span>
+                                                    <span>Airtel</span>
+                                                </div>
+                                                <div class="callSignal">
+                                                    <span class="d-inline-block">
+                                                        <img src="images/Obelisk_96px.png">
+                                                    </span>
+                                                    <span class="d-inline-block">
+                                                        <img src="images/Signal_100px.png">
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="processbox bg-theme">
+                                            <div class="processImg">
+                                                <img src="images/Info_100px.png">
+                                            </div>
+                                            <div class="processMsg">Requesting<br>SIM1</div>
+                                        </div>
+                                        <div class="incoming bg-theme">
+                                            <span class="incomeName font-weight-bold">Mr. Black</span><br>
+                                            <span class="incomeNum">08010020030</span><br>
+                                            <span class="incomeCalling font-weight-bold">calling</span>
+                                        </div>
+                                        <div class="menunav row mx-auto p-0 w-100">
+                                            <div class="menu1 col menus pl-1 ml-0 text-left">Go to</div>
+                                            <div class="menu2 col menus text-center">Menu</div>
+                                            <div class="menu3 col menus pr-1 mr-0 text-right">Names</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="controlpad row mx-auto rounded mb-1 p-0 border-theme">
+                                    <div class="tbutton col ml-0 d-inline-block">
+                                        <table class="tab-btn">
+                                            <tr>
+                                                <td class="menu1btn btn-light t-in tln">
+                                                    <img src="images/Horizontal Line_96px_material.png">
+                                                </td>
+                                                <td class="t-in" rowspan="3">
+                                                    <button class="fbbtn bg-light border-theme px-1 mx-0 my-auto rounded mx-0">
+                                                        <img src="images/Facebook_96px.png" class="m-0">
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr class="tsp"></tr>
+                                            <tr>
+                                                <td class="ttn t-in btn-light" onclick="makeCall('')">
+                                                    <img src="images/End Call_96px_material.png">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="mcol tbutton d-inline-block rounder border-theme">
+                                        <table class="tab-btn">
+                                            <tr>
+                                                <td class="tnav-y btn-light rounded-top px-2" colspan="3"></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="tnav-x btn-light"></td>
+                                                <td class="tnav-center btn-light h-100">
+                                                    <div class="w-100 h-100 border-theme rounded"></div>
+                                                </td>
+                                                <td class="tnav-x btn-light"></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="tnav-y btn-light rounded-bottom px-2" colspan="3"></td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="tbutton col mr-0 d-inline-block">
+                                        <table class="tab-btn">
+                                            <tr>
+                                                <td class="t-in" rowspan="3">
+                                                    <button class="mailbtn bg-light border-theme px-1 my-auto rounded mx-0">
+                                                        <img src="images/Envelope_96px.png" class="m-0">
+                                                    </button>
+                                                </td>
+                                                <td class="menu3btn btn-light t-in tln" onclick="clickMenu3()">
+                                                    <img src="images/Horizontal Line_96px_material.png">
+                                                </td>
+                                            </tr>
+                                            <tr class="tsp"></tr>
+                                            <tr>
+                                                <td class="ttn btn-light t-in" onclick="home()">
+                                                    <img src="images/End Call_100px.png">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="keypad mx-auto bg-light rounded mt-2">
+                                    <!-- <table id="utable"> -->
+                                        <div class="row mb-2 mt-1 mx-auto">
+                                            <button class="kpb bg-light col rounded border-theme" onclick="tsend('Q')">
+                                                <span class="btn-char fnt-inc inc-t">&quot;</span>
+                                                <span class="btn-char">Q</span>
+                                            </button>
+                                            <button class="kpb bg-light col rounded border-theme" onclick="tsend('W')">
+                                                <span class="btn-char">(</span>
+                                                <span class="btn-char">W</span>
+                                            </button>
+                                            <button class="kpb bg-light col rounded border-theme" onclick="tsend('E')">
+                                                <span class="btn-char">)</span>
+                                                <span class="btn-char">E</span>
+                                            </button>
+                                            <button class="kpb bg-light col rounded border-theme" onclick="tsend('R')">
+                                                <span class="btn-char tmchar">1</span>
+                                                <span class="btn-char">R</span>
+                                            </button>
+                                            <button class="kpb bg-light col rounded border-theme" onclick="tsend('T')">
+                                                <span class="btn-char tmchar">2</span>
+                                                <span class="btn-char">T</span>
+                                            </button>
+                                            <button class="kpb bg-light col rounded border-theme" onclick="tsend('Y')">
+                                                <span class="btn-char tmchar">3</span>
+                                                <span class="btn-char">Y</span>
+                                            </button>
+                                            <button class="kpb bg-light col rounded border-theme" onclick="tsend('U')">
+                                                <span class="btn-char tmchar fnt-inc inc-t">*</span>
+                                                <span class="btn-char">U</span>
+                                            </button>
+                                            <button class="kpb bg-light col rounded border-theme" onclick="tsend('I')">
+                                                <span class="btn-char">&plus;</span>
+                                                <span class="btn-char">I</span>
+                                            </button>
+                                            <button class="kpb bg-light col rounded border-theme" onclick="tsend('O')">
+                                                <span class="btn-char">&equals;</span>
+                                                <span class="btn-char">O</span>
+                                            </button>
+                                            <button class="kpb bg-light col rounded border-theme" onclick="tsend('P')">
+                                                <span class="btn-char">&nbsp;</span>
+                                                <span class="btn-char">P</span>
+                                            </button>
+                                        </div>
+                                        <div class="row mb-2 mt-1 mx-auto">
+                                            <button class="kpb bg-light col rounded border-theme" onclick="tsend('A')">
+                                                <span class="btn-char">&nbsp;</span>
+                                                <span class="btn-char">A</span>
+                                            </button>
+                                            <button class="kpb bg-light col rounded border-theme" onclick="tsend('S')">
+                                                <span class="btn-char">&nbsp;</span>
+                                                <span class="btn-char">S</span>
+                                            </button>
+                                            <button class="kpb bg-light col rounded border-theme" onclick="tsend('D')">
+                                                <span class="btn-char">&nbsp;</span>
+                                                <span class="btn-char">D</span>
+                                            </button>
+                                            <button class="kpb bg-light col rounded border-theme" onclick="tsend('F')">
+                                                <span class="btn-char tmchar">4</span>
+                                                <span class="btn-char">F</span>
+                                            </button>
+                                            <button class="kpb bg-light col rounded border-theme" onclick="tsend('G')">
+                                                <span class="btn-char tmchar">5</span>
+                                                <span class="btn-char">G</span>
+                                            </button>
+                                            <button class="kpb bg-light col rounded border-theme" onclick="tsend('H')">
+                                                <span class="btn-char tmchar">6</span>
+                                                <span class="btn-char">H</span>
+                                            </button>
+                                            <button class="kpb bg-light col rounded border-theme" onclick="tsend('J')">
+                                                <span class="btn-char tmchar">#</span>
+                                                <span class="btn-char">J</span>
+                                            </button>
+                                            <button class="kpb bg-light col rounded border-theme" onclick="tsend('K')">
+                                                <span class="btn-char">&minus;</span>
+                                                <span class="btn-char">K</span>
+                                            </button>
+                                            <button class="kpb bg-light col rounded border-theme" onclick="tsend('L')">
+                                                <span class="btn-char fnt-inc">&lsquo;</span>
+                                                <span class="btn-char">L</span>
+                                            </button>
+                                            <button class="kpb bg-light col rounded border-theme" onclick="tsend('clear')">
+                                                <span class="btn-char">
+                                                    <img src="images/Clear Symbol_64px.png">
+                                                </span>
+                                            </button>
+                                        </div>
+                                        <div class="row mb-2 mt-1 mx-auto">
+                                            <button class="kpb bg-light col rounded border-theme" onclick="tsend('Z')">
+                                                <span class="btn-char">&nbsp;</span>
+                                                <span class="btn-char">Z</span>
+                                            </button>
+                                            <button class="kpb bg-light col rounded border-theme" onclick="tsend('X')">
+                                                <span class="btn-char">&nbsp;</span>
+                                                <span class="btn-char">X</span>
+                                            </button>
+                                            <button class="kpb bg-light col rounded border-theme" onclick="tsend('C')">
+                                                <span class="btn-char">&nbsp;</span>
+                                                <span class="btn-char">C</span>
+                                            </button>
+                                            <button class="kpb bg-light col rounded border-theme" onclick="tsend('V')">
+                                                <span class="btn-char tmchar">7</span>
+                                                <span class="btn-char">V</span>
+                                            </button>
+                                            <button class="kpb bg-light col rounded border-theme" onclick="tsend('B')">
+                                                <span class="btn-char tmchar">8</span>
+                                                <span class="btn-char">B</span>
+                                            </button>
+                                            <button class="kpb bg-light col rounded border-theme" onclick="tsend('N')">
+                                                <span class="btn-char tmchar">9</span>
+                                                <span class="btn-char">N</span>
+                                            </button>
+                                            <button class="kpb bg-light col rounded border-theme" onclick="tsend('M')">
+                                                <span class="btn-char tmchar">0</span>
+                                                <span class="btn-char">M</span>
+                                            </button>
+                                            <button class="kpb bg-light col rounded border-theme" onclick="tsend(',')">
+                                                <span class="btn-char fnt-ninc">;</span>
+                                                <span class="btn-char fnt-inc inc-b">&comma;</span>
+                                            </button>
+                                            <button class="kpb bg-light col rounded border-theme" onclick="tsend('.')">
+                                                <span class="btn-char fnt-ninc">&colon;</span>
+                                                <span class="btn-char fnt-inc inc-b">&period;</span>
+                                            </button>
+                                            <button class="kpb bg-light col rounded border-theme" onclick="tsend('enter')">
+                                                <span class="btn-char">
+                                                    <img src="images/Enter Key_64px.png">
+                                                </span>
+                                            </button>
+                                        </div>
+                                        <div class="row mb-2 mt-1 mx-auto">
+                                            <button class="btn-hid rounded invisible border-theme"></button>
+                                            <button class="bg-light col rounded border-theme">
+                                                <span class="btn-char">
+                                                    <img src="images/Up Right_50px.png">
+                                                </span>
+                                            </button>
+                                            <button class="bg-light col rounded border-theme" onclick="tsend('caps')">
+                                                <span class="btn-char">&nbsp;</span>
+                                                <span class="btn-char">
+                                                    <img src="images/Caps Lock On_100px.png">
+                                                </span>
+                                            </button>
+                                            <button class="bg-light col rounded border-theme" onclick="tsend('sym')">
+                                                <span class="btn-char img-txt">
+                                                    <img src="images/Bluetooth 2_100px_ios.png">
+                                                </span>
+                                                <span class="btn-char">Sym</span>
+                                            </button>
+                                            <button class="bg-light spacebar rounded border-theme" onclick="tsend(' ')">
+                                                <span class="btn-char mx-auto">
+                                                    <img src="images/Horizontal Line_96px.png" class="mx-auto pt-2">
+                                                </span>
+                                            </button>
+                                            <button class="bg-light col rounded border-theme" onclick="tsend('@')">
+                                                <span class="btn-char">/</span>
+                                                <span class="btn-char">@</span>
+                                            </button>
+                                            <button class="bg-light col rounded border-theme" onclick="tsend('?')">
+                                                <span class="btn-char">&excl;</span>
+                                                <span class="btn-char">&quest;</span>
+                                            </button>
+                                            <button class="bg-light col rounded border-theme" onclick="tsend('ctrl')">
+                                                <span class="btn-char img-txt">
+                                                    <img src="images/No Audio_64px.png">
+                                                </span>
+                                                <span class="btn-char">Ctrl</span>
+                                            </button>
+                                            <button class="btn-hid rounded invisible border-theme"></button>
+                                        </div>
+                                    <!-- </table> -->
+                                </div>
+                        </div>
+                        <div class="round-edge roundtwo bg-phone border-theme mx-auto">
+                        </div>
+            </div>
+            <div class="col-sm-6">
+                        <div class="roundone round-edge bg-phone border-theme mx-auto">
+                        </div>
+                        <!-- the device begins here -->
+                        <div class="phone-bx border-y-0 bg-phone border-theme my-4 py-3 mx-auto rounded">
+                                <div class="mic bg-theme mx-auto rounded"></div>
+                                <div class="mx-auto p-0 my-0">
+                                    <p class="nokiatext p-0 text-center font-weight-bold">NOKIA</p>
+                                </div>
+                                <div class="screenbox mx-auto mb-2">
+                                    <div class="showbox position-relative bg-dark border-theme w-100 h-100">
+                                        <div class="topnav row mx-auto w-100">
+                                            <div class="topicons col p-0">
+                                                <img src="images/Low Battery_96px.png">
+                                            </div>
+                                        </div>
+                                        <div class="homebox row mx-auto">
+                                            <div class="timeplus col d-inline-block">
+                                                <div class="timepiece">
+                                                    <span class="piecedigit">07:44</span><br>
+                                                    <span class="piecepm">pm</span>
+                                                </div>
+                                                <div></div>
+                                                <div>&nbsp;</div>
+                                            </div>
+                                            <div class="glasscupboard d-inline-block">
+                                                <div class="glassdiv">
+                                                    <div>
+                                                        <span>1</span>
+                                                        <span class="imgSignal">
+                                                            <img src="images/Obelisk_96px.png">
+                                                            <img src="images/Signal_100px.png">
+                                                        </span>
+                                                        <span> Airtel NG</span>
+                                                    </div>
+                                                    <div>
+                                                        <span>2</span>
+                                                        <span class="imgSignal">
+                                                            <img src="images/Obelisk_96px.png">
+                                                            <img src="images/Signal_100px.png">
+                                                        </span>
+                                                        <span> Glo NG</span>
+                                                    </div>
+                                                </div>
+                                                <div class="glassdiv">
+                                                    <div class="row" title="Music"><span class="col pl-0">My music </span><span class="glassicon bg-danger"><img src="images/Music_96px.png"></span></div>
+                                                    <div class="row" title="Radio"><span class="col pl-0">Radio </span><span class="glassicon bg-danger"><img src="images/Radio_96px.png"></span></div>
+                                                    <div class="border-0">&nbsp;</div>
+                                                </div>
+                                                <div class="glassdiv">
+                                                    <div class="appnav">
+                                                        <div class="clickapp"><span title="Camera" class="bg-info"><img src="images/Camera_104px.png"></span></div>
+                                                        <div class="clickapp"><span title="My Apps" class="bg-dorange"><img src="images/Medium Icons_96px.png"></span></div>
+                                                        <div class="clickapp"><span title="Volume" class="bg-secondary"><img src="images/Speaker_104px.png"></span></div>
+                                                        <div class="clickapp"><span title="Twitter" class="bg-info"><img src="images/Twitter_100px.png"></span></div>
+                                                        <div class="clickapp"><span title="Calculator" class="bg-dorange"><img src="images/Calculator_100px.png"></span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- <div class="col d-inline-block">x</div> -->
+                                        </div>
+                                        <div class="dialbox bg-theme w-100">
+                                            <div class="dialspace m-auto text-left">
+                                                <input type="text" class="w-100 h-100 text-right">
+                                            </div>
+                                        </div>
+                                        <div class="callbox bg-theme m-auto text-center">
+                                            <div>
+                                                <div class="callImg">
+                                                    <span>
+                                                        <img src="images/Call_96px_light.png">
+                                                    </span>
+                                                    <!-- <span>&nbsp;</span> -->
+                                                </div>
+                                                <!-- <div style="position: relative; left: -5px;"><span>A SPAN IN THE DIV</span>THIS IS A DIV</div> -->
+                                                <div class="calling">
+                                                    <span>Calling...</span>
+                                                    <span class="font-weight-bold">911</span>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="callSim">
+                                                    <span class="font-weight-bold">SIM1</span>
+                                                    <span>Airtel</span>
+                                                </div>
+                                                <div class="callSignal">
+                                                    <span class="d-inline-block">
+                                                        <img src="images/Obelisk_96px.png">
+                                                    </span>
+                                                    <span class="d-inline-block">
+                                                        <img src="images/Signal_100px.png">
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="processbox bg-theme">
+                                            <div class="processImg">
+                                                <img src="images/Info_100px.png">
+                                            </div>
+                                            <div class="processMsg">Requesting<br>SIM1</div>
+                                        </div>
+                                        <div class="incoming bg-theme">
+                                            <span class="incomeName font-weight-bold">Mr. Black</span><br>
+                                            <span class="incomeNum">08010020030</span><br>
+                                            <span class="incomeCalling font-weight-bold">calling</span>
+                                        </div>
+                                        <div class="menunav row mx-auto p-0 w-100">
+                                            <div class="menu1 col menus pl-1 ml-0 text-left">Go to</div>
+                                            <div class="menu2 col menus text-center">Menu</div>
+                                            <div class="menu3 col menus pr-1 mr-0 text-right">Names</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="controlpad row mx-auto rounded mb-1 p-0 border-theme">
+                                    <div class="tbutton col ml-0 d-inline-block">
+                                        <table class="tab-btn">
+                                            <tr>
+                                                <td class="menu1btn btn-dark t-in tln">
+                                                    <img src="images/Horizontal Line_96px_Material_light.png">
+                                                </td>
+                                                <td class="t-in" rowspan="3">
+                                                    <button class="fbbtn bg-dark border-theme px-1 mx-0 my-auto rounded mx-0">
+                                                        <img src="images/Facebook_96px.png" class="m-0">
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr class="tsp"></tr>
+                                            <tr>
+                                                <td class="ttn t-in btn-dark" onclick="makeCall('')">
+                                                    <img src="images/End Call_96px.png">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="mcol tbutton d-inline-block rounder border-theme">
+                                        <table class="tab-btn">
+                                            <tr>
+                                                <td class="tnav-y btn-dark rounded-top px-2" colspan="3"></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="tnav-x btn-dark"></td>
+                                                <td class="tnav-center btn-dark h-100">
+                                                    <div class="w-100 h-100 border-theme rounded"></div>
+                                                </td>
+                                                <td class="tnav-x btn-dark"></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="tnav-y btn-dark rounded-bottom px-2" colspan="3"></td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="tbutton col mr-0 d-inline-block">
+                                        <table class="tab-btn">
+                                            <tr>
+                                                <td class="t-in" rowspan="3">
+                                                    <button class="mailbtn bg-dark border-theme px-1 my-auto rounded mx-0">
+                                                        <img src="images/Envelope_96px_light.png" class="m-0">
+                                                    </button>
+                                                </td>
+                                                <td class="menu3btn btn-dark t-in tln" onclick="clickMenu3()">
+                                                    <img src="images/Horizontal Line_96px_Material_light.png">
+                                                </td>
+                                            </tr>
+                                            <tr class="tsp"></tr>
+                                            <tr>
+                                                <td class="ttn btn-dark t-in" onclick="home()">
+                                                    <img src="images/End Call_100px_light.png">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="keypad mx-auto bg-dark rounded mt-2">
+                                    <!-- <table id="utable"> -->
+                                        <div class="row mb-2 mt-1 mx-auto">
+                                            <button class="kpb bg-dark col rounded border-theme" onclick="tsend('Q')">
+                                                <span class="btn-char fnt-inc inc-t">&quot;</span>
+                                                <span class="btn-char">Q</span>
+                                            </button>
+                                            <button class="kpb bg-dark col rounded border-theme" onclick="tsend('W')">
+                                                <span class="btn-char">(</span>
+                                                <span class="btn-char">W</span>
+                                            </button>
+                                            <button class="kpb bg-dark col rounded border-theme" onclick="tsend('E')">
+                                                <span class="btn-char">)</span>
+                                                <span class="btn-char">E</span>
+                                            </button>
+                                            <button class="kpb bg-dark col rounded border-theme" onclick="tsend('R')">
+                                                <span class="btn-char tmchar">1</span>
+                                                <span class="btn-char">R</span>
+                                            </button>
+                                            <button class="kpb bg-dark col rounded border-theme" onclick="tsend('T')">
+                                                <span class="btn-char tmchar">2</span>
+                                                <span class="btn-char">T</span>
+                                            </button>
+                                            <button class="kpb bg-dark col rounded border-theme" onclick="tsend('Y')">
+                                                <span class="btn-char tmchar">3</span>
+                                                <span class="btn-char">Y</span>
+                                            </button>
+                                            <button class="kpb bg-dark col rounded border-theme" onclick="tsend('U')">
+                                                <span class="btn-char tmchar fnt-inc inc-t">*</span>
+                                                <span class="btn-char">U</span>
+                                            </button>
+                                            <button class="kpb bg-dark col rounded border-theme" onclick="tsend('I')">
+                                                <span class="btn-char">&plus;</span>
+                                                <span class="btn-char">I</span>
+                                            </button>
+                                            <button class="kpb bg-dark col rounded border-theme" onclick="tsend('O')">
+                                                <span class="btn-char">&equals;</span>
+                                                <span class="btn-char">O</span>
+                                            </button>
+                                            <button class="kpb bg-dark col rounded border-theme" onclick="tsend('P')">
+                                                <span class="btn-char">&nbsp;</span>
+                                                <span class="btn-char">P</span>
+                                            </button>
+                                        </div>
+                                        <div class="row mb-2 mt-1 mx-auto">
+                                            <button class="kpb bg-dark col rounded border-theme" onclick="tsend('A')">
+                                                <span class="btn-char">&nbsp;</span>
+                                                <span class="btn-char">A</span>
+                                            </button>
+                                            <button class="kpb bg-dark col rounded border-theme" onclick="tsend('S')">
+                                                <span class="btn-char">&nbsp;</span>
+                                                <span class="btn-char">S</span>
+                                            </button>
+                                            <button class="kpb bg-dark col rounded border-theme" onclick="tsend('D')">
+                                                <span class="btn-char">&nbsp;</span>
+                                                <span class="btn-char">D</span>
+                                            </button>
+                                            <button class="kpb bg-dark col rounded border-theme" onclick="tsend('F')">
+                                                <span class="btn-char tmchar">4</span>
+                                                <span class="btn-char">F</span>
+                                            </button>
+                                            <button class="kpb bg-dark col rounded border-theme" onclick="tsend('G')">
+                                                <span class="btn-char tmchar">5</span>
+                                                <span class="btn-char">G</span>
+                                            </button>
+                                            <button class="kpb bg-dark col rounded border-theme" onclick="tsend('H')">
+                                                <span class="btn-char tmchar">6</span>
+                                                <span class="btn-char">H</span>
+                                            </button>
+                                            <button class="kpb bg-dark col rounded border-theme" onclick="tsend('J')">
+                                                <span class="btn-char tmchar">#</span>
+                                                <span class="btn-char">J</span>
+                                            </button>
+                                            <button class="kpb bg-dark col rounded border-theme" onclick="tsend('K')">
+                                                <span class="btn-char">&minus;</span>
+                                                <span class="btn-char">K</span>
+                                            </button>
+                                            <button class="kpb bg-dark col rounded border-theme" onclick="tsend('L')">
+                                                <span class="btn-char fnt-inc">&lsquo;</span>
+                                                <span class="btn-char">L</span>
+                                            </button>
+                                            <button class="kpb bg-dark col rounded border-theme" onclick="tsend('clear')">
+                                                <span class="btn-char">
+                                                    <img src="images/Clear Symbol_96px_light.png">
+                                                </span>
+                                            </button>
+                                        </div>
+                                        <div class="row mb-2 mt-1 mx-auto">
+                                            <button class="kpb bg-dark col rounded border-theme" onclick="tsend('Z')">
+                                                <span class="btn-char">&nbsp;</span>
+                                                <span class="btn-char">Z</span>
+                                            </button>
+                                            <button class="kpb bg-dark col rounded border-theme" onclick="tsend('X')">
+                                                <span class="btn-char">&nbsp;</span>
+                                                <span class="btn-char">X</span>
+                                            </button>
+                                            <button class="kpb bg-dark col rounded border-theme" onclick="tsend('C')">
+                                                <span class="btn-char">&nbsp;</span>
+                                                <span class="btn-char">C</span>
+                                            </button>
+                                            <button class="kpb bg-dark col rounded border-theme" onclick="tsend('V')">
+                                                <span class="btn-char tmchar">7</span>
+                                                <span class="btn-char">V</span>
+                                            </button>
+                                            <button class="kpb bg-dark col rounded border-theme" onclick="tsend('B')">
+                                                <span class="btn-char tmchar">8</span>
+                                                <span class="btn-char">B</span>
+                                            </button>
+                                            <button class="kpb bg-dark col rounded border-theme" onclick="tsend('N')">
+                                                <span class="btn-char tmchar">9</span>
+                                                <span class="btn-char">N</span>
+                                            </button>
+                                            <button class="kpb bg-dark col rounded border-theme" onclick="tsend('M')">
+                                                <span class="btn-char tmchar">0</span>
+                                                <span class="btn-char">M</span>
+                                            </button>
+                                            <button class="kpb bg-dark col rounded border-theme" onclick="tsend(',')">
+                                                <span class="btn-char fnt-ninc">;</span>
+                                                <span class="btn-char fnt-inc inc-b">&comma;</span>
+                                            </button>
+                                            <button class="kpb bg-dark col rounded border-theme" onclick="tsend('.')">
+                                                <span class="btn-char fnt-ninc">&colon;</span>
+                                                <span class="btn-char fnt-inc inc-b">&period;</span>
+                                            </button>
+                                            <button class="kpb bg-dark col rounded border-theme" onclick="tsend('enter')">
+                                                <span class="btn-char">
+                                                    <img src="images/Enter Key_96px_light.png">
+                                                </span>
+                                            </button>
+                                        </div>
+                                        <div class="row mb-2 mt-1 mx-auto">
+                                            <button class="btn-hid rounded invisible border-theme"></button>
+                                            <button class="bg-dark col rounded border-theme">
+                                                <span class="btn-char">
+                                                    <img src="images/Up Right_50px_light.png">
+                                                </span>
+                                            </button>
+                                            <button class="bg-dark col rounded border-theme" onclick="tsend('caps')">
+                                                <span class="btn-char">&nbsp;</span>
+                                                <span class="btn-char">
+                                                    <img src="images/Caps Lock On_100px_light.png">
+                                                </span>
+                                            </button>
+                                            <button class="bg-dark col rounded border-theme" onclick="tsend('sym')">
+                                                <span class="btn-char img-txt">
+                                                    <img src="images/Bluetooth 2_100px_ios_light.png">
+                                                </span>
+                                                <span class="btn-char">Sym</span>
+                                            </button>
+                                            <button class="bg-dark spacebar rounded border-theme" onclick="tsend(' ')">
+                                                <span class="btn-char mx-auto">
+                                                    <img src="images/Horizontal Line_96px_light.png" class="mx-auto pt-2">
+                                                </span>
+                                            </button>
+                                            <button class="bg-dark col rounded border-theme" onclick="tsend('@')">
+                                                <span class="btn-char">/</span>
+                                                <span class="btn-char">@</span>
+                                            </button>
+                                            <button class="bg-dark col rounded border-theme" onclick="tsend('?')">
+                                                <span class="btn-char">&excl;</span>
+                                                <span class="btn-char">&quest;</span>
+                                            </button>
+                                            <button class="bg-dark col rounded border-theme" onclick="tsend('ctrl')">
+                                                <span class="btn-char img-txt">
+                                                    <img src="images/No Audio_96px_light.png">
+                                                </span>
+                                                <span class="btn-char">Ctrl</span>
+                                            </button>
+                                            <button class="btn-hid rounded invisible border-theme"></button>
+                                        </div>
+                                    <!-- </table> -->
+                                </div>
+                        </div>
+                        <div class="round-edge roundtwo bg-phone border-theme mx-auto">
+                        </div>
+            </div>
+            <!-- <div class="col-sm-6"></div> -->
+        </div>
+    </div>
+</body>
+</html>
