@@ -38,7 +38,7 @@
 }
 .screenbox {
     background-color: rgba(128, 128, 128, 0.664);
-    height: 160px; 
+    height: 160px;
     width: 220px;
     position: relative;
 }
@@ -92,7 +92,7 @@
 }
 .glasscupboard {
     width: 10.3em;
-    font-size: 1em;
+    font-size: .99em;
     padding: 0;
     margin: 0;
 }
@@ -338,7 +338,7 @@
     line-height: 1em;
 }
 .controlpad {
-    height: 55px; 
+    height: 55px;
     width: 225px;
 }
 .phone-bx {
@@ -476,7 +476,7 @@
     /* margin: auto; */
 }
 .keypad {
-    height: 138px; 
+    height: 138px;
     width: 222px;
 }
 .keypad button {
